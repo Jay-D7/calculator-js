@@ -1,0 +1,26 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right bottom,
+    #e4a7db,
+    #d245db,
+    #a22dce,
+    #7d3ac5,
+    #4d56bd
+  );
+}
