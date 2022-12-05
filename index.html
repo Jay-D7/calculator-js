@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"
+    />
+    <title>JavaScript Calculator</title>
   </head>
   <body>
     <div class="calculator">
       <div class="display">
         <div class="previous-number">
-          <p>123</p>
-          <span class="math-sign">+</span>
+          <p></p>
+          <span class="math-sign"></span>
         </div>
-        <p class="current-number">121321</p>
+        <p class="current-number"></p>
       </div>
 
       <div class="panel">
@@ -40,19 +44,15 @@
       </div>
     </div>
 
-    <div class="calculator-history">
+    <div data-simplebar class="calculator-history">
       <p class="history-title">
         Last calculations <button class="history-btn">Clear History</button>
       </p>
       <hr />
-      <ul class="history">
-        <li>2232332</li>
-        <li>2232332</li>
-        <li>2232332</li>
-        <li>2232332</li>
-      </ul>
+      <ul class="history"></ul>
     </div>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
   </body>
 </html>
